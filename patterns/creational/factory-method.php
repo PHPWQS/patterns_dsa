@@ -71,3 +71,5 @@ $plane_logistic = (new LogisticFactory('plane', 'Iphone 15', 333))->getInstance(
 
 var_dump($ship_logistic->calculate());
 var_dump($plane_logistic->calculate());
+
+?>

@@ -22,4 +22,8 @@ class SomeClass
 }
 
 $some_class = new SomeClass("Mesrop", "Arakelyan");
-echo $some_class->get_fullname();
+$some_class_2 = clone $some_class;
+
+echo $some_class_2->get_fullname();
+
+?>

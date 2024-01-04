@@ -27,3 +27,5 @@ $db_example_1 = DatabaseSingleton::getInstance('mysql:host=localhost;username=po
 $db_example_2 = DatabaseSingleton::getInstance('psql:host=localhost;username=postgres;password=1234');
 
 echo $db_example_1->pdo, $db_example_2->pdo;
+
+?>

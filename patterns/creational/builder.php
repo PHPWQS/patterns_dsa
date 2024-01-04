@@ -44,3 +44,5 @@ $select_users_query = SelectQueryBuilder::query()->select('users')
 ->where('age', '>', 18)->Andwhere('male', '=', 'female')->request();
 
 echo $select_users_query;
+
+?>
